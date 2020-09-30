@@ -14,4 +14,11 @@ public class ListNode {
     public ListNode() {
 
     }
+
+    public void printNode(){
+        System.out.println(this.val);
+        if (this.next != null) {
+            this.next.printNode();
+        }
+    }
 }
