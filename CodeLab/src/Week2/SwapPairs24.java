@@ -2,7 +2,7 @@ package Week2;
 
 import utils.ListNode;
 
-public class SwapPairs {
+public class SwapPairs24 {
     public ListNode swapPairs(ListNode head) {
         // 1->2->3
         ListNode dummy = new ListNode(-1, head);
