@@ -1,6 +1,6 @@
 package Week2;
 
-public class MiniParser {
+public class MiniParser385 {
     public NestedInteger deserialize(String s) {
         if (s.isEmpty())
             return null;
